@@ -1,23 +1,30 @@
+<!DOCTYPE html>
+<html>
+
 <head>
-  <link rel="stylesheet" type="text/css" href="/static/styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="/static/styles/styles.css">
 </head>
 
-<h1 class="header">My Pets</h1>
+<body id="body">
+    <h1 class="header">My Pets</h1>
 
-<form id="new-pet-form" action="/new-pet" method="POST" onsubmit="return validateForm()">
-  Name:
-  <input id="nameInput" name="name" />
-  <br>
-  Species:
-  <input id="speciesInput" name="species" />
-  <br>
-  Age:
-  <input id="ageInput" name="age" />
-  <br>
-  <input id="submit" type="submit" value="Submit" />
-</form>
+    <form id="new-pet-form" action="/new-pet" method="POST" onsubmit="return validateForm()">
+        Name:
+        <input id="nameInput" name="name" />
+        <br> Species:
+        <input id="speciesInput" name="species" />
+        <br> Age:
+        <input id="ageInput" name="age" />
+        <br>
+        <input id="submit" type="submit" value="Submit" />
+    </form>
 
-<a href="/pets">Pets List</a>
-
-
+    <a href="/pets">Pets List</a>
+    </br>
+    </br>
+    <input id="backgroundColor" /></br>
+    <button id="changeColor">Change Background Color</button>
+</body>
 <script src="/static/scripts/home.js"></script>
+
+</html>
