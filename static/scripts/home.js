@@ -1,5 +1,3 @@
-console.log('Hello, world!')
-
 document.getElementById('changeColor').addEventListener('click', function() {
     var color = document.getElementById('backgroundColor').value;
     var body = document.getElementById('body');
@@ -21,8 +19,6 @@ function validateForm() {
         alert('Age must be a number!');
         return false;
     }
-
-    console.log(name, species, age);
 
     return true;
 }
